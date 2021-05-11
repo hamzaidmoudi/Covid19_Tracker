@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    font-size: 2em;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.navbar .este {
+    height: 100px;
+    width: 150px;
+    position: fixed;
+    left: 10px;
+    top: 0px;
+}
+.scroll{
+    border: 2px solid black;
+    height: 100%; 
+    width: 200px;
+    margin-left: 5px;
+    text-align: center ;
+    background-color: whitesmoke;
+   
+    
+}
+.country{
+    height: 40px;
+    width: 190px;
+    background-color: rgb(78, 170, 78);
+    margin: 2px;
+    margin-left: 5px;
+}
+.country:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.bottom_bar{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: green;
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    height: 400px;
+    width: 900px;
+    position: fixed;
+    left: 210px;
+    top: 110px;
+    margin-left: 20px;
+}
